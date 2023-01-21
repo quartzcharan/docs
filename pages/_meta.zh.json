@@ -1,0 +1,68 @@
+{
+  "index": "Introduction",
+  "developer": "Developer",
+  "api-endpoint": "API Endpoint",
+  "Home": {
+    "title": "Home",
+    "type": "page"
+  },
+  "Trial": {
+    "title": "Trial",
+    "type": "page"
+  },
+  "ComputerScience": {
+    "title": "Computer Science",
+    "type": "page"
+  },
+  "OtherSubjects": {
+    "title": "Other Subjects",
+    "type": "page"
+  },
+  "Website": {
+    "title": "Website",
+    "type": "page",
+    "href": "https://home.charanquartz.vercel.app",
+    "newWindow": true
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/charanquartz",
+    "newWindow": true
+  }
+  ,
+  "Links": {
+    "title": "Links",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "My Profile",
+        "href": "/Home/developer"
+      },
+      "mail": {
+        "title": "Contact Me",
+        "href": "mailto:contact+atblog@charanquartz.me"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "href": "https://instagram.com/charanquartz"
+      },
+      "youtube": {
+        "title": "Youtube",
+        "href": "https://youtube.com/@charanquartz"
+      },
+      "Netlify": {
+        "title": "Netlify",
+        "href": "https://charanquartz.netlify.app"
+      },
+      "LinkedIn": {
+        "title": "LinkedIn",
+        "href": "https://Linkedin.com/in/charanquartz"
+      }
+    }
+  }
+}
