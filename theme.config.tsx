@@ -63,11 +63,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: "Learning Documentation of Charan Quartz",
   },
-  i18n: [
-    { locale: 'en', text: 'English' },
-    { locale: 'zh', text: '中文' },
-   
-  ],
+  i18n: [],
 };
 
 export default config;
