@@ -5,4 +5,9 @@ const withNextra = require("nextra")({
   defaultShowCopyCode: false,
 });
 
-module.exports = withNextra();
+module.exports = withNextra({
+  i18n: {
+    locales: ['en', 'zh', 'de'],
+    defaultLocale: 'en'
+  }
+})
