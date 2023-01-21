@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
     const { route } = useRouter();
     if (route !== "/") {
       return {
-        titleTemplate: "%s – Nakafa Documentation",
+        titleTemplate: "%s – Learning Documentation of Charan Quartz",
       };
     }
   },
@@ -44,11 +44,11 @@ const config: DocsThemeConfig = {
         <meta property="og:url" content={`https://docs.nakafa.com${asPath}`} />
         <meta
           property="og:title"
-          content={frontMatter.title || "Nakafa Documentation"}
+          content={frontMatter.title || "Learning Documentation of Charan Quartz"}
         />
         <meta
           property="og:description"
-          content={frontMatter.description || "Nakafa Documentation"}
+          content={frontMatter.description || "Learning Documentation of Charan Quartz"}
         />
       </>
     );
@@ -61,7 +61,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/nabilfatih/nakafa-docs",
   footer: {
-    text: "Nakafa Documentation",
+    text: "Learning Documentation of Charan Quartz",
   },
   i18n: [],
 };
