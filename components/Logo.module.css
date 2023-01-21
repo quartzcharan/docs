@@ -1,5 +1,5 @@
 .logo {
   display: flex;
-  align-items: left;
+  align-items: center; /*denter*/
   gap: 0.2rem;
 }
