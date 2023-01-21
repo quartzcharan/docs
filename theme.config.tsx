@@ -59,7 +59,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://go.cquartz.live/discord",
   },
-  docsRepositoryBase: "https://github.com/charanquartz/docs.demo/tree/main",
+  docsRepositoryBase: "https://github.com/charanquartz/docs.demo/edit/main",
   footer: {
     text: "Learning Documentation of Charan Quartz",
   },
