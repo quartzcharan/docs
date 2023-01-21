@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
     return (
       <>
         <meta name="robots" content="follow, index" />
-        <link href="/favicon.ico" rel="shortcut icon" />
+        <link href="/images/c16.ico" rel="shortcut icon" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
