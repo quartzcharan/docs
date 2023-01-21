@@ -54,12 +54,12 @@ const config: DocsThemeConfig = {
     );
   },
   project: {
-    link: "https://github.com/nabilfatih/nakafa-docs",
+    link: "https://github.com/charanquartz",
   },
   chat: {
-    link: "https://discord.gg/gE983WmM",
+    link: "https://discord.gg/",
   },
-  docsRepositoryBase: "https://github.com/nabilfatih/nakafa-docs",
+  docsRepositoryBase: "https://github.com/charanquartz/docs/tree/main",
   footer: {
     text: "Learning Documentation of Charan Quartz",
   },
