@@ -2,10 +2,8 @@ import styles from "./Logo.module.css";
 
 const Logo = ({ className = "", ...props }) => (
   <div className={styles.logo}>
-    <img src='https://home.charanquartz.vercel.app/c.gif' width='50' height='50'alt='next' />
-    
+    <img src='https://assets-charanquartz.netlify.app/a/w/docs.assets/cq.svg' alt='next' />
     <strong>Charanquartz's Documentation</strong>
-    <img src='#https://assets-charanquartz.netlify.app/a/w/docs.assets/cq.svg' alt='next' />
     </div>
 );
 
