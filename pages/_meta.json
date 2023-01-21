@@ -2,9 +2,12 @@
   "index": "Introduction",
   "developer": "Developer",
   "api-endpoint": "API Endpoint",
-  "Home": "Home",
   "Home": {
     "title": "Home",
+    "type": "page"
+  },
+  "Computer Science": {
+    "title": "Computer Science",
     "type": "page"
   },
   "Website": {
