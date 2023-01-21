@@ -10,6 +10,10 @@
     "title": "Computer Science",
     "type": "page"
   },
+  "Subjects": {
+    "title": "Other Subjects",
+    "type": "page"
+  },
   "Website": {
     "title": "Website",
     "type": "page",
