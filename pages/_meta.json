@@ -7,10 +7,14 @@
   "api-endpoint": "API Endpoint",
   "privacy-policy": "Privacy Policy",
   "terms-of-service": "Terms of Service",
-  "nakafa": {
-    "title": "Nakafa",
+  "Home": {
+    "title": "Home",
+    "type": "page"
+  },
+  "Website": {
+    "title": "Website",
     "type": "page",
-    "href": "https://nakafa.com",
+    "href": "https://home.charanquartz.vercel.app",
     "newWindow": true
   },
   "about": {
@@ -20,7 +24,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/nakafaofficial",
+    "href": "https://twitter.com/charanquartz",
     "newWindow": true
   }
 }
