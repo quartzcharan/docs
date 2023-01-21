@@ -6,11 +6,15 @@
     "title": "Home",
     "type": "page"
   },
+  "Trial": {
+    "title": "Trial",
+    "type": "page"
+  },
   "ComputerScience": {
     "title": "Computer Science",
     "type": "page"
   },
-  "Subjects": {
+  "OtherSubjects": {
     "title": "Other Subjects",
     "type": "page"
   },
