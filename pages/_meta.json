@@ -1,12 +1,8 @@
 {
   "index": "Introduction",
-  "how-it-works": "How It Works",
-  "how-to-use": "How to Use",
   "developer": "Developer",
-  "limitation": "Limitation",
   "api-endpoint": "API Endpoint",
-  "privacy-policy": "Privacy Policy",
-  "terms-of-service": "Terms of Service",
+  "Home": "Home",
   "Home": {
     "title": "Home",
     "type": "page"
@@ -26,5 +22,24 @@
     "type": "page",
     "href": "https://twitter.com/charanquartz",
     "newWindow": true
+  }
+  ,
+  "Links": {
+    "title": "Links",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "My Profile",
+        "href": "/Home/developer"
+      },
+      "mail": {
+        "title": "Contact Me",
+        "href": "contact+atblog@charanquartz.me"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "href": "https://instagram.com/charanquartz"
+      }
+    }
   }
 }
