@@ -34,11 +34,23 @@
       },
       "mail": {
         "title": "Contact Me",
-        "href": "contact+atblog@charanquartz.me"
+        "href": "mailto:contact+atblog@charanquartz.me"
       },
       "instagram": {
         "title": "Instagram",
         "href": "https://instagram.com/charanquartz"
+      },
+      "youtube": {
+        "title": "Youtube",
+        "href": "https://youtube.com/@charanquartz"
+      },
+      "Netlify": {
+        "title": "Netlify",
+        "href": "https://charanquartz.netlify.app"
+      },
+      "LinkedIn": {
+        "title": "LinkedIn",
+        "href": "https://Linkedin.com/in/charanquartz"
       }
     }
   }
