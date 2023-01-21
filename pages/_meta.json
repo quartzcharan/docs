@@ -1,0 +1,26 @@
+{
+  "index": "Introduction",
+  "how-it-works": "How It Works",
+  "how-to-use": "How to Use",
+  "developer": "Developer",
+  "limitation": "Limitation",
+  "api-endpoint": "API Endpoint",
+  "privacy-policy": "Privacy Policy",
+  "terms-of-service": "Terms of Service",
+  "nakafa": {
+    "title": "Nakafa",
+    "type": "page",
+    "href": "https://nakafa.com",
+    "newWindow": true
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/nakafaofficial",
+    "newWindow": true
+  }
+}
