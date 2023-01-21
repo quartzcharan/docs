@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nakafaa-docs.git"
+    "url": "git+https://github.com/shuding/nakafa-docs.git"
   },
   "author": "Nakafa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nakafaa-docs/issues"
+    "url": "https://github.com/shuding/nakafa-docs/issues"
   },
-  "homepage": "https://github.com/shuding/nakafaa-docs#readme",
+  "homepage": "https://github.com/shuding/nakafa-docs#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "2.0.1",
