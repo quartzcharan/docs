@@ -43,6 +43,10 @@
         "title": "My Profile",
         "href": "/Home/developer"
       },
+      "docsfilechanges": {
+        "title": "Docs Version Control Kinda",
+        "type": "page"
+      },
       "mail": {
         "title": "Contact Me",
         "href": "mailto:contact+atblog@charanquartz.me"
