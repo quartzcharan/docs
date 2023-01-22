@@ -41,7 +41,7 @@ const config: DocsThemeConfig = {
 
         <link rel="mask-icon" href="https://assets-charanquartz.netlify.app/a/w/docs.assets/cq.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:url" content={`https://docs.nakafa.com${asPath}`} />
+        <meta property="og:url" content={`https://docs.charanquartz.vercel.app${asPath}`} />
         <meta
           property="og:title"
           content={frontMatter.title || "Learning Documentation of Charan Quartz"}
@@ -59,7 +59,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://go.cquartz.live/discord",
   },
-  docsRepositoryBase: "https://github.com/charanquartz/docs.demo/edit/main",
+  docsRepositoryBase: "https://github.com/charanquartz/docs/edit/main",
   footer: {
     text: "Learning Documentation of Charan Quartz",
   },
