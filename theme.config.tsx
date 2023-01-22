@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
           href="/images/c16.png"
         />
 
-        <link rel="mask-icon" href="https://assets-charanquartz.netlify.app/a/w/docs.assets/cq.svg" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:url" content={`https://docs.nakafa.com${asPath}`} />
         <meta
