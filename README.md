@@ -10,4 +10,4 @@ Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
 ## License
 
-2020 Nakafa, All Right Reserved. Made by Love
+2020 Nakafa, All Right Reserved. Made by Love.
