@@ -3,6 +3,40 @@ import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import Logo from "./components/Logo";
+/*change starts*/
+import Document, { Html, Head, Main, NextScript } from "next/document";
+
+class MyDocument extends Document {
+  render() {
+    return (
+      <Html>
+        <Head>
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                page_path: window.location.pathname,
+            });
+            `,
+            }}
+          />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
+}
+/*change ends*/
 
 const config: DocsThemeConfig = {
   logo: <Logo />,
@@ -64,6 +98,7 @@ const config: DocsThemeConfig = {
     text: "Learning Documentation of Charan Quartz",
   },
   i18n: [],
+  
 };
 
 export default config;
