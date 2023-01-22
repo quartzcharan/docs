@@ -1,0 +1,30 @@
+```java copy showLineNumbers
+package dday1.ll22;
+							// 10|-->20|-->30|null
+class Node
+{
+	int no;   
+	Node next; // Pointer Variable
+	Node(int n){
+		no = n;
+		next = null;
+	}
+}
+ class linkedlist {
+	public static void main(String[] args) {
+		Node x = new Node(10); // 10 | null
+		Node y = new Node(20); // 10 | null 20|null
+		Node z = new Node(30); // 10 | null 20|null 30|null
+		
+		x.next=y;
+		y.next=z;
+		
+		Node temp = x;
+		
+		while(temp!= null) {
+			System.out.print(temp.no + " ");
+			temp = temp.next;
+		}                
+	}
+}
+```
