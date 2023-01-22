@@ -2,6 +2,12 @@
   "index": "Introduction",
   "developer": "Developer",
   "api-endpoint": "API Endpoint",
+  "docsfilechanges":{
+    "display": "hidden"
+  },
+  "folder1":{
+    "display": "hidden"
+  },
   "Home": {
     "title": "Home",
     "type": "page"
@@ -33,8 +39,7 @@
     "type": "page",
     "href": "https://twitter.com/charanquartz",
     "newWindow": true
-  }
-  ,
+  },
   "Links": {
     "title": "Links",
     "type": "menu",
@@ -43,10 +48,19 @@
         "title": "My Profile",
         "href": "/Home/developer"
       },
-      "nothing": {
-        "title": "Docs's Changes Tracking",
-        "href": "/docsfilechanges/AddedGoogletagstomydocs/addedgooglesheets"
+
+      "docsfilechanges": {
+        "title": "Doc's Changes Tracking",
+        "href": "/docsfilechanges/AddedGoogletagstomydocs/addedgooglesheets/",
+        "type": "page"
       },
+      "folder1": {
+        "title": "folders",
+        "href": "/folder1/file2/",
+        "type": "page"
+      },
+
+
       "mail": {
         "title": "Contact Me",
         "href": "mailto:contact+atblog@charanquartz.me"
