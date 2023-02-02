@@ -1,4 +1,4 @@
-# Nakafa Documentation
+# cq Documentation
 
 This is the nakafa documentation
 
